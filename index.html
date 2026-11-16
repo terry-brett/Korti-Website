@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>korti — Never let an expired card stop a subscription</title>
+  <meta name="description" content="Track which payment card pays for each recurring service—on your device, without bank logins—so when a card expires or is replaced, nothing slips.">
+  <meta property="og:title" content="korti — Subscription &amp; Card Clarity">
+  <meta property="og:description" content="Track which payment card pays for each recurring service—on your device, without bank logins—so when a card expires or is replaced, nothing slips.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-current="page">
+        <span>korti</span>
+        <span class="brand-dot" aria-hidden="true"></span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <ul class="nav-links">
+          <li><a href="#how-it-works">How it works</a></li>
+          <li><a href="#privacy">Privacy</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="#download" class="btn btn-primary btn-sm">Get the app</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Built for card expiry, bank reissues &amp; quiet clarity</span>
+          <h1>Never let an expired card stop a subscription.</h1>
+          <p class="hero-lead">
+            Track which card pays for each recurring service—on your device, without bank logins—so when a card expires or is replaced, nothing slips.
+          </p>
+          <div class="hero-cta-row">
+            <a href="#download" class="btn btn-primary">Download for iOS &amp; macOS</a>
+            <a href="#download" class="btn btn-secondary">Get it on Google Play</a>
+          </div>
+          <ul class="trust-list">
+            <li><span aria-hidden="true">✓</span> No bank logins</li>
+            <li><span aria-hidden="true">✓</span> On-device parsing</li>
+            <li><span aria-hidden="true">✓</span> One-time Pro (£1.99)</li>
+          </ul>
+        </div>
+
+        <div class="phone-stage">
+          <div class="float-pill float-pill-top" aria-hidden="true">
+            <strong>Local Engine</strong><br>
+            <span class="mini-row-meta">Parsing receipts locally</span>
+          </div>
+
+          <div class="phone-frame" aria-label="Korti mobile vault preview">
+            <div class="phone-topbar">
+              <span class="brand">korti</span>
+              <span class="phone-private">Private vault</span>
+            </div>
+            <p class="phone-title">Your vault</p>
+            <p class="phone-sub">Cards and the subscriptions on them, in one place.</p>
+
+            <div class="bank-card-preview">
+              <div class="bank-card-top">
+                <span>Nordea Everyday</span>
+                <span class="mono">VISA</span>
+              </div>
+              <div class="bank-card-digits">•••• &nbsp;•••• &nbsp;•••• &nbsp;4558</div>
+              <div class="bank-card-bottom">
+                <span>EXP 08/26</span>
+                <span>3 linked</span>
+              </div>
+            </div>
+
+            <div class="mini-list">
+              <div class="mini-row">
+                <div>
+                  <strong>Netflix</strong>
+                  <div class="mini-row-meta">Monthly · Day 3</div>
+                </div>
+                <span class="mono">£10.99</span>
+              </div>
+              <div class="mini-row">
+                <div>
+                  <strong>Spotify</strong>
+                  <div class="mini-row-meta">Monthly · Day 11</div>
+                </div>
+                <span class="mono">£11.99</span>
+              </div>
+              <div class="mini-row">
+                <div>
+                  <strong>iCloud+</strong>
+                  <div class="mini-row-meta">Monthly · Day 22</div>
+                </div>
+                <span class="mono">£2.99</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="float-pill float-pill-bottom" aria-hidden="true">
+            <strong>Card expiring soon</strong><br>
+            <span class="mini-row-meta">3 subscriptions ready to move</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- How it works -->
+    <section id="how-it-works" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">How Korti works</p>
+          <h2>Three quiet steps to permanent card clarity.</h2>
+          <p>
+            Korti maps your cards, reads receipt emails locally on your phone, and guides you through updating each billing method when a card changes.
+          </p>
+        </div>
+
+        <div class="grid-3">
+          <article class="card">
+            <div class="step-num">01</div>
+            <h3>Private Receipt Sync</h3>
+            <p>
+              Connect Gmail or TLS IMAP in read-only mode. Deterministic local rules scan receipts on-device without uploading message bodies.
+            </p>
+            <div class="progress-segments" aria-hidden="true">
+              <div class="progress-seg done"></div>
+              <div class="progress-seg done"></div>
+              <div class="progress-seg done"></div>
+            </div>
+            <p class="mini-row-meta">Connecting · Receipts · Subscriptions</p>
+          </article>
+
+          <article class="card">
+            <div class="step-num">02</div>
+            <h3>Tactile Discovery Vault</h3>
+            <p>
+              Organise cards with Scandinavian swatches, last 4 digits, and expiry dates—never full card numbers or CVVs.
+            </p>
+            <div class="swatch-row" aria-hidden="true">
+              <span class="swatch" style="background: var(--sw-pine);"></span>
+              <span class="swatch" style="background: var(--sw-fjord);"></span>
+              <span class="swatch" style="background: var(--sw-moss);"></span>
+              <span class="swatch" style="background: var(--sw-clay);"></span>
+              <span class="swatch" style="background: var(--sw-sand);"></span>
+              <span class="swatch" style="background: var(--sw-night);"></span>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="step-num">03</div>
+            <h3>Guided Card Migration</h3>
+            <p>
+              When a card expires or is reissued, work through a calm checklist with direct links to each service's billing page.
+            </p>
+            <div class="mini-list" style="margin-block-start: 1rem;">
+              <div class="mini-row">
+                <span><strong>Netflix</strong> · Open billing</span>
+                <span class="mono">1 / 3</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Migration showcase -->
+    <section class="section">
+      <div class="container grid-2">
+        <div class="phone-stage">
+          <div class="phone-frame" aria-label="Korti migration checklist preview">
+            <div class="phone-topbar">
+              <span class="brand">korti</span>
+              <span class="phone-private">Migrate</span>
+            </div>
+            <p class="phone-title">Move subscriptions</p>
+            <p class="phone-sub">Move each service to your new card before the old one stops.</p>
+
+            <div class="mini-list" style="margin-block-end: 1rem;">
+              <div class="mini-row">
+                <span>From <strong>Nordea •••• 1234</strong></span>
+                <span class="mini-row-meta">Expiring</span>
+              </div>
+              <div class="mini-row">
+                <span>To <strong>Monzo •••• 4558</strong></span>
+                <span class="mini-row-meta">New card</span>
+              </div>
+            </div>
+
+            <div class="mini-row" style="display: block; padding: 0.9rem;">
+              <div style="display: flex; justify-content: space-between; margin-block-end: 0.5rem;">
+                <strong>1. Open Netflix billing</strong>
+                <span class="mono mini-row-meta">0 of 5</span>
+              </div>
+              <div class="mini-row-meta" style="margin-block-end: 0.75rem;">
+                Enter your new Monzo •••• 4558 card, then mark as updated.
+              </div>
+              <span class="btn btn-primary btn-sm" style="inline-size: 100%; pointer-events: none;">Open Netflix</span>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p class="section-kicker">Calm card replacement</p>
+          <h2 style="margin: 0 0 1rem; font-size: clamp(1.75rem, 3vw, 2.35rem); font-weight: 500; letter-spacing: -0.025em;">
+            Designed for the awkward moment cards expire.
+          </h2>
+          <p style="margin: 0; color: var(--muted); font-size: 1.05rem;">
+            Every few years, a bank reissues a piece of plastic. Stop playing the detective game with failed payment emails and paused accounts.
+          </p>
+          <ul class="feature-points">
+            <li>
+              <span class="check-dot" aria-hidden="true">✓</span>
+              <div>
+                <strong>Proactive expiry reminders</strong><br>
+                <span class="mini-row-meta">Get notified 7 to 90 days before a saved card expires so you migrate on your schedule.</span>
+              </div>
+            </li>
+            <li>
+              <span class="check-dot" aria-hidden="true">✓</span>
+              <div>
+                <strong>Direct billing deep-links across 24 countries</strong><br>
+                <span class="mini-row-meta">Jump straight to the official billing page for streaming, telecom, delivery, and SaaS services.</span>
+              </div>
+            </li>
+            <li>
+              <span class="check-dot" aria-hidden="true">✓</span>
+              <div>
+                <strong>No automated scraping or credentials stored</strong><br>
+                <span class="mini-row-meta">You update each service directly in its official portal while Korti tracks your progress.</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section id="privacy" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Built with zero compromise</p>
+          <h2>Privacy is not a toggle. It's the only way financial software should exist.</h2>
+          <p>
+            Korti runs locally on your device. No open banking logins, no full card numbers, and no ad trackers.
+          </p>
+        </div>
+
+        <div class="grid-4">
+          <article class="card">
+            <h3>No Bank Logins</h3>
+            <p>Never hand over your online banking credentials or connect third-party open-banking aggregators.</p>
+          </article>
+          <article class="card">
+            <h3>Local Engine</h3>
+            <p>Receipt rules and subscription matching run locally on-device with biometrics and PIN lock protection.</p>
+          </article>
+          <article class="card">
+            <h3>Read-Only Mail</h3>
+            <p>Korti never modifies, deletes, or sends emails. Credentials remain in session memory only.</p>
+          </article>
+          <article class="card">
+            <h3>Export Anytime</h3>
+            <p>Export a clean PDF summary of your cards and subscriptions or back up to your personal iCloud or Google Drive.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section id="pricing" class="section">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-kicker">Honest pricing</p>
+          <h2>Why pay a monthly fee to track monthly fees?</h2>
+          <p>Start free with everything you need, or unlock Korti Pro once for lifetime access.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <article class="card price-card">
+            <div>
+              <p class="section-kicker">Standard</p>
+              <h3>Free tier</h3>
+              <p class="price-amount">£0 <span>forever</span></p>
+              <p>Everything needed to map your main cards and catch expiring payments.</p>
+              <ul class="price-list">
+                <li><span aria-hidden="true">✓</span> Up to 2 cards in your Vault</li>
+                <li><span aria-hidden="true">✓</span> Up to 5 linked subscriptions</li>
+                <li><span aria-hidden="true">✓</span> On-device read-only receipt sync</li>
+                <li><span aria-hidden="true">✓</span> Step-by-step migration checklist</li>
+              </ul>
+            </div>
+            <a href="#download" class="btn btn-secondary">Start for free</a>
+          </article>
+
+          <article class="card price-card featured">
+            <div>
+              <p class="section-kicker">Lifetime Pass</p>
+              <h3>Korti Pro</h3>
+              <p class="price-amount">£1.99 <span>one-time</span></p>
+              <p>One payment, no recurring subscription. Unlock every tool across your vault.</p>
+              <ul class="price-list">
+                <li><span aria-hidden="true">✓</span> Unlimited cards &amp; subscriptions</li>
+                <li><span aria-hidden="true">✓</span> Direct billing deep-links (24 countries)</li>
+                <li><span aria-hidden="true">✓</span> Personal iCloud / Google Drive backup</li>
+                <li><span aria-hidden="true">✓</span> PDF summary export</li>
+                <li><span aria-hidden="true">✓</span> Custom hex card themes &amp; reminder lead times</li>
+              </ul>
+            </div>
+            <a href="#download" class="btn btn-primary">Unlock lifetime access · £1.99</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download CTA -->
+    <section id="download" class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <span class="eyebrow" style="background: rgb(255 255 255 / 14%); color: #f9f8f4;">iOS &amp; Android</span>
+          <h2>Bring quiet order to your subscriptions today.</h2>
+          <p>
+            Track cards without full numbers, spot recurring receipts on-device, and never miss an expiry date again.
+          </p>
+          <div class="hero-cta-row" style="margin-block-end: 0;">
+            <a href="#download" class="btn btn-light">App Store (Coming Soon)</a>
+            <a href="#download" class="btn btn-outline-light">Google Play (Coming Soon)</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand" style="color: var(--fg);">
+            <span>korti</span>
+            <span class="brand-dot" aria-hidden="true"></span>
+          </a>
+          <p style="margin-block: 0.75rem 0; max-inline-size: 34ch;">
+            Calm, privacy-first card and subscription tracking operated by Terry Brett.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h2>Product</h2>
+          <ul>
+            <li><a href="#how-it-works">How it works</a></li>
+            <li><a href="#privacy">Privacy &amp; Security</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#download">Download</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2>Legal &amp; Support</h2>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms &amp; Conditions</a></li>
+            <li><a href="mailto:support@korti.co.uk">support@korti.co.uk</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Korti · Terry Brett. All rights reserved.</span>
+        <span><a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms &amp; Conditions</a></span>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
